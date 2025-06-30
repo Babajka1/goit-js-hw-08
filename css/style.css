@@ -1,4 +1,5 @@
 body {
+
     margin: 0 auto;
     padding: 24px;
 }
@@ -14,6 +15,8 @@ ul {
     flex-wrap: wrap;
     gap: 24px 24px;
     justify-content: center;
+    max-width: 1128px;
+    margin: 0 auto;
 }
 
 .gallery-image {
