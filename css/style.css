@@ -1,0 +1,29 @@
+body {
+    margin: 0 auto;
+    padding: 24px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 24px;
+    justify-content: center;
+}
+
+.gallery-image {
+    display: block;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    flex: 0 1 calc(33.333% - 24px);
+}
+
+.gallery-image:hover {
+    cursor: zoom-in;
+}
